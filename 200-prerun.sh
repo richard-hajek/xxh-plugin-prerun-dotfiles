@@ -1,3 +1,5 @@
+mkdir -p ~/.cache/bash
+
 if hash git &> /dev/null; then
     sh -c "$(curl -fsLS git.io/chezmoi)" -- init --apply richard-hajek
 
