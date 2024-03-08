@@ -23,7 +23,7 @@ done
 
 if [ -x "$(command -v pip)" ]; then
 
-  PYTHONUSERBASE=$build_dir/home/.local pip install --user -I -r pip-requirements.txt
+  PYTHONUSERBASE=$build_dir/home/.local pip install --user -I -r pip-requirements.txt --break-system-packages
 
   # Fix python shebang
   pypath=`readlink -f $(which python)`
