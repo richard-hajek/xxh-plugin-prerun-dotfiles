@@ -1,3 +1,4 @@
+set -x
 echo Running ver 2
 
 mkdir -p ~/.cache/bash
