@@ -1,3 +1,5 @@
+echo Running ver 2
+
 mkdir -p ~/.cache/bash
 
 if hash git &> /dev/null; then
